@@ -5,10 +5,32 @@
  */
 package TugasPraktikum;
 
+import java.util.Scanner;
+
 /**
  *
  * @author WINDOWS 10
  */
 public class Biodata {
-    
+    public static void main(String[] args) {
+        Scanner masukan = new Scanner(System.in);
+        String nama, nis, tmp, tgl, jns, almt, motto;
+        System.out.println();
+        System.out.print("Biodata");
+        System.out.println();
+        System.out.print("Nama : ");
+        nama = masukan.nextLine();
+        System.out.print("NIS : ");
+        nis = masukan.nextLine();
+        System.out.print("Tempar Lahir : ");
+        tmp = masukan.nextLine();
+        System.out.print("Tanggal Lahir : ");
+        tgl = masukan.nextLine();
+        System.out.print("Jenis Kelamin : ");
+        jns = masukan.nextLine();
+        System.out.print("Alamat di Malang : ");
+        almt = masukan.nextLine();
+        System.out.print("Motto : ");
+        motto = masukan.nextLine();
+    }
 }
