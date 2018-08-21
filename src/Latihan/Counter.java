@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Counter {
       public static void main(String[] args) {
         Scanner masukan = new Scanner(System.in);
-        System.out.println("Masukkan batas bilangan :");
+        System.out.print("Masukkan batas bilangan :");
         int batas = masukan.nextInt();
         int hasil = 0;
         for(int i=1; i<=batas; i++)
